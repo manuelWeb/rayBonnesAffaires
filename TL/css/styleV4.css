@@ -92,7 +92,7 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 #menu ul li.main a.category span{display:inline-block; padding:0 10px;line-height:16px;vertical-align:middle;font-size:12px;text-transform:uppercase;}
 /*#menu ul li.main a.category span{display:block;height:39px;font-size:12px;line-height:40px;text-transform:uppercase;padding:0 10px;background:url(../images/Version4/bg_menu-category.png) right -39px no-repeat}*/
 #menu ul li.main a.hover{color:#FFF}
-#menu ul li.main .layer{display:none;position:absolute;top:39px;left:30px;width:900px;background:#CCC}
+#menu ul li.main .layer{display:none;position:absolute;top:39px;left:30px;background:#CCC} /* menu_c1 width:900px; */
 #menu ul li.main .layer .in{height:205px;background:#FFF;margin:4px;overflow:hidden}
 #menu ul li.main .layer .in ul{display:block;margin:5px auto 0 auto;width:800px}
 #menu ul li.main .layer .in ul li{display:inline;float:left;width:223px;margin-left:10px}
