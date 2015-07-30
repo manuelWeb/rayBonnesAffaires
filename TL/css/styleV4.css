@@ -92,12 +92,12 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 #menu ul li.main a.category span{display:inline-block; padding:0 10px;line-height:16px;vertical-align:middle;font-size:12px;text-transform:uppercase;}
 /*#menu ul li.main a.category span{display:block;height:39px;font-size:12px;line-height:40px;text-transform:uppercase;padding:0 10px;background:url(../images/Version4/bg_menu-category.png) right -39px no-repeat}*/
 #menu ul li.main a.hover{color:#FFF}
-#menu ul li.main .layer{display:none;position:absolute;top:39px;left:30px;background:#CCC} /* menu_c1 width:900px; */
+#menu ul li.main .layer{display:none;position:absolute;top:39px;background:#CCC} /* menu_c1 left:30px; width:900px; */
 #menu ul li.main .layer .in{height:205px;background:#FFF;margin:4px;overflow:hidden}
-#menu ul li.main .layer .in ul{display:block;margin:5px auto 0 auto;width:800px}
+#menu ul li.main .layer .in ul{display:block;margin:5px auto 0 auto;}/* menu_c1 width:800px */
 #menu ul li.main .layer .in ul li{display:inline;float:left;width:223px;margin-left:10px}
 #menu ul li.main .layer .in ul li.adsNoProduit{position:relative;/*float:right;*/background:#CCC;width:274px;height:193px;margin-right: 10px;margin-left: 0}
-#menu ul li.main .layer .in ul li.ads{position:relative;/*float:right;*/background:#fff;width:272px;height:193px;margin-right: 10px;margin-left: 0; border:1px solid #979797;}/* +border1px = h-2px & w-2px */
+#menu ul li.main .layer .in ul li.ads{position:relative;background:#fff;width:272px;height:193px;margin-right: 5px;margin-left: 0; border:1px solid #979797;} /* menu_c1 margin-right: 10>5px; */
 #menu ul li.main .layer .in ul li.ads img{float:left;margin:6px;}
 #menu ul li.main .layer .in ul li.ads div.txtPck{height:124px;margin-top:6px;}/*h1+p*/
 #menu ul li.main .layer .in ul li.ads h1{float:left;width:144px;font-size:14px;color:#181818;}/* height:50px;** */
@@ -111,33 +111,33 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 #menu ul li.main .layer .in ul li a{display:block;font-size:13px;line-height:20px;color:#57575a;text-transform:uppercase}
 #menu ul li.item1 a.hover{background-position:left -78px}
 #menu ul li.item1 a.hover span{background-position:right -117px}
-#menu ul li.item1 .layer{background:#e95d0f;position:absolute;top:39px;left:30px;}
-#menu ul li.item1 .layer .in ul {margin:5px auto 0 auto;width:750px}
+#menu ul li.item1 .layer{background:#e95d0f;position:absolute;top:39px;}/* menu_c1 left:30px; */
+#menu ul li.item1 .layer .in ul {margin:5px auto 0 auto;}/* menu_c1 width:750px */
 #menu ul li.item1 .layer .in ul li a:hover{ color: #e95d0f;text-decoration: underline;font-weight: bold;}
 #menu ul li.item2 a.hover{background-position:left -156px}
 #menu ul li.item2 a.hover span{background-position:right -195px}
 #menu ul li.item2 .layer{background:#00a8e4;position:absolute;top:39px;left:30px;}
-#menu ul li.item2 .layer .in ul {margin:5px auto 0 auto;width:550px}
+#menu ul li.item2 .layer .in ul {margin:5px auto 0 auto;} /* menu_c1 width:550px */
 #menu ul li.item2 .layer .in ul li a:hover{color:#00a8e4;text-decoration: underline;font-weight: bold;}
 #menu ul li.item3 a.hover{background-position:left -234px}
 #menu ul li.item3 a.hover span{background-position:right -273px}
 #menu ul li.item3 .layer{background:#e42685;position:absolute;top:39px;left:30px;}
-#menu ul li.item3 .layer .in ul {margin:5px auto 0 auto;width:750px}
+#menu ul li.item3 .layer .in ul {margin:5px auto 0 auto;} /* menu_c1 width:750px */
 #menu ul li.item3 .layer .in ul li a:hover{color:#e42685;text-decoration: underline;font-weight: bold;}
 #menu ul li.item4 a.hover{background-position:left -312px}
 #menu ul li.item4 a.hover span{background-position:right -351px}
 #menu ul li.item4 .layer{background:#fba606;position:absolute;top:39px;left:370px;}
-#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;width:550px}
+#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;}/* menu_c1 width:550px */
 #menu ul li.item4 .layer .in ul li a:hover{color:#fba606;text-decoration: underline;font-weight: bold;}
 #menu ul li.item5 a.hover{background-position:left -390px}
 #menu ul li.item5 a.hover span{background-position:right -429px}
 #menu ul li.item5 .layer{background:#7ab41c;position:absolute;top:39px;left:170px;}
-#menu ul li.item5 .layer .in ul {margin:5px auto 0 auto;width:750px}
+#menu ul li.item5 .layer .in ul {margin:5px auto 0 auto;} /* menu_c1 width:750px */
 #menu ul li.item5 .layer .in ul li a:hover{color:#7ab41c;text-decoration: underline;font-weight: bold;}
 #menu ul li.item6 a.hover{background-position:left -468px}
 #menu ul li.item6 a.hover span{background-position:right -507px}
-#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px;left:370px;}
-#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;width:100%}
+#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px; right: 0;}/* menu_c1 left:370px; > r:0; */
+#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;}/* menu_c1 width:100% */
 #menu ul li.item6 .layer .in ul li a:hover{color:#7c0395;text-decoration: underline;font-weight: bold;}
 body.item1 #menu ul li.item1 a{background-position:left -78px}
 body.item1 #menu ul li.item1 a span{color:#FFF;background-position:right -117px}

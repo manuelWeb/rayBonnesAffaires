@@ -1,7 +1,29 @@
 ### branch menu_c1
 correction css :
+- line 90
+- <code>#menu ul li.main a.category{float:left; width: 125px;height:39px;line-height:39px;background:#f9d5e1;color:#b41f20;margin-right:7px;~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
 - line 95 
-- <code>#menu ul li.main .layer{display:none;position:absolute;top:39px;left:30px;~~width:900px;~~background:#CCC}</code>
+- <code>#menu ul li.main .layer{display:none;position:absolute;top:39px;~~left:30px~~;~~width:900px;~~background:#CCC}</code>
 - HTML supp :
 - <code> <input type="hidden" name="ctl00$UC_MENU$HF_NBR_COLONNE_RAYON_PAR_UNIVERS" id="ctl00_UC_MENU_HF_NBR_COLONNE_RAYON_PAR_UNIVERS" value="2;1;2;1;2;2;" /> </code>
 - &lt;input type=&quot;hidden&quot; name=&quot;ctl00$UC_MENU$HF_NBR_COLONNE_RAYON_PAR_UNIVERS&quot; id=&quot;ctl00_UC_MENU_HF_NBR_COLONNE_RAYON_PAR_UNIVERS&quot; value=&quot;2;1;2;1;2;2;&quot; /&gt;
+- line 97
+- <code>#menu ul li.main .layer .in ul{display:block;margin:5px auto 0 auto;~~width:800px~~}</code>
+- line 100
+- <code>#menu ul li.main .layer .in ul li.ads{position:relative;background:#fff;width:272px;height:193px;margin-right: ~~10px~~>5px;margin-left: 0; border:1px solid #979797;}</code>
+- line 114
+- <code>#menu ul li.item1 .layer{background:#e95d0f;position:absolute;top:39px;~~left:30px;~~}</code>
+- line 115
+- <code>#menu ul li.item1 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- line 120
+- <code>#menu ul li.item2 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
+- line 125
+- <code>#menu ul li.item3 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- line 130
+- <code>#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
+- line 135
+- <code>#menu ul li.item5 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- line 140
+- <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
+- line 139
+- <code>#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px;~~left:370px;~~>right: 0;}</code>
