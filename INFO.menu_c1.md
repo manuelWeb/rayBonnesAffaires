@@ -1,7 +1,11 @@
 ### branch menu_c1
 correction css :
+- line 13
+- <code>#shadow{width: 1002px; **min-height: 502px;** margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}</code>
+- line 89
+- <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~}</code>
 - line 90
-- <code>#menu ul li.main a.category{float:left; width: 125px;height:39px;line-height:39px;background:#f9d5e1;color:#b41f20;margin-right:7px;~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
+- <code>#menu ul li.main a.category{~~float: left;~~>display: inline-block; ~~width: 125px;~~ height: 39px; line-height: 39px; background: #f9d5e1; color: #b41f20; ~~margin-right:7px;~~ **-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px;** ~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
 - line 95 
 - <code>#menu ul li.main .layer{display:none;position:absolute;top:39px;~~left:30px~~;~~width:900px;~~background:#CCC}</code>
 - HTML supp :
@@ -11,18 +15,28 @@ correction css :
 - <code>#menu ul li.main .layer .in ul{display:block;margin:5px auto 0 auto;~~width:800px~~}</code>
 - line 100
 - <code>#menu ul li.main .layer .in ul li.ads{position:relative;background:#fff;width:272px;height:193px;margin-right: ~~10px~~>5px;margin-left: 0; border:1px solid #979797;}</code>
-- line 114
-- <code>#menu ul li.item1 .layer{background:#e95d0f;position:absolute;top:39px;~~left:30px;~~}</code>
+- line 112 supp ~~#menu ul li.item1 a.hover{background-position:left -78px}~~  ajouter :
+- <code>#menu ul li.main.item1:hover, #menu ul li.main.item1 a:hover, #menu ul li.main.item1 a:active, #menu ul li.main.item1 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e95d0f; color: #fff; } #menu ul li.main.item1:hover a {background: none;}</code>
 - line 115
 - <code>#menu ul li.item1 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- line 117 supp ~~#menu ul li.item2 a.hover{background-position:left -156px}~~ ajouter
+- <code>#menu ul li.main.item2:hover, #menu ul li.main.item2 a:hover, #menu ul li.main.item2 a:active, #menu ul li.main.item2 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #00a8e4; color: #fff; } #menu ul li.main.item2:hover a {background: none;}</code>
 - line 120
 - <code>#menu ul li.item2 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
+- line 122 supp ~~#menu ul li.item3 a.hover{background-position:left -234px}~~ ajouter
+- <code>#menu ul li.main.item3:hover, #menu ul li.main.item3 a:hover, #menu ul li.main.item3 a:active, #menu ul li.main.item3 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e42685; color: #fff; } #menu ul li.main.item3:hover a {background: none;}</code>
 - line 125
 - <code>#menu ul li.item3 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- line 127 supp ~~#menu ul li.item4 a.hover{background-position:left -312px}~~ ajouter
+- <code>#menu ul li.main.item4:hover, #menu ul li.main.item4 a:hover, #menu ul li.main.item4 a:active, #menu ul li.main.item4 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #fba606; color: #fff; } #menu ul li.main.item4:hover a {background: none;}</code>
 - line 130
 - <code>#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
+- line 132 supp ~~#menu ul li.item5 a.hover{background-position:left -390px}~~ ajouter
+- <code>#menu ul li.main.item5:hover, #menu ul li.main.item5 a:hover, #menu ul li.main.item5 a:active, #menu ul li.main.item5 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7ab41c; color: #fff; } #menu ul li.main.item5:hover a {background: none;}</code>
 - line 135
 - <code>#menu ul li.item5 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- line 137 supp ~~#menu ul li.item6 a.hover{background-position:left -468px}~~ ajouter
+- <code>#menu ul li.main.item6:hover, #menu ul li.main.item6 a:hover, #menu ul li.main.item6 a:active, #menu ul li.main.item6 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7c0395; color: #fff; } #menu ul li.main.item6:hover a {background: none;}</code>
 - line 140
 - <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
 - line 139
