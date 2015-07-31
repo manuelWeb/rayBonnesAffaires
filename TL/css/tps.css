@@ -1,8 +1,11 @@
 #menu ul li.main .layer {
-  transition: all 0.2s ease 1s;
+  display: block;
+}
+#menu ul li.main .layer {
+  transition: all 0.2s ease 0.1s;
   visibility: hidden;
 }
 #menu ul li.main:hover .layer {
-  transition-delay: 0s;
+  /*transition-delay: 0s;*/
   visibility: visible;
 }
