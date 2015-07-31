@@ -6,6 +6,8 @@ correction css :
 - <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~}</code>
 - **line 90**
 - <code>#menu ul li.main a.category{~~float: left;~~>display: inline-block; ~~width: 125px;~~ height: 39px; line-height: 39px; background: #f9d5e1; color: #b41f20; ~~margin-right:7px;~~ **-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px;** ~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
+- **line 92** 
+- <code>#menu ul li.main a.category span{display:inline-block; ~~padding:0 10px;~~ > padding: 0 6px; line-height:16px;vertical-align:middle;font-size:12px;text-transform:uppercase;}</code>
 - **line 95** 
 - <code>#menu ul li.main .layer{display:none;position:absolute;top:39px; ~~left:30px~~; ~~width:900px;~~ ~~background:#CCC~~}</code>
 - HTML supp :
@@ -52,3 +54,10 @@ correction css :
 - <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
 - **line 139**
 - <code>#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px;~~left:370px;~~>right: 0;}</code>
+- **line 142 à 153** supp remplacer par (latence dropdown) :
+- <code>#menu ul li.main a.category {transition: all 0.2s ease 0.1s; }  
+#menu ul li.main:hover .in a {background-color: transparent; }  
+#menu ul li.main .layer {display: block; }  
+#menu ul li.main .layer {transition: all 0.2s ease 0.1s; visibility: hidden; }  
+#menu ul li.main:hover .layer {visibility: visible; }  </code>
+- **line XXX**

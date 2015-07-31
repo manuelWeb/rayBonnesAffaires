@@ -1,16 +1,33 @@
-#menu ul li.main a.category {
-  transition: all 0.2s ease 0.1s;
+/*pour afficher un box-shadow correctement sur le btn bonnes affaires*/
+#contentBG {
+  background: #fff none repeat scroll 0 0;
+  margin: 0 auto;
+  width: 974px;
 }
-#menu ul li.main:hover .in a {
-  background-color: transparent;
+#header{ background-color: transparent; }
+/* passage de l'item 2 sur deux lignes contrainte width */
+#menu ul li.main.item2 a.category span {
+  width: 98px;
 }
-#menu ul li.main .layer {
-  display: block;
+/* la regle ci dessus bouge le menu item4 d'ou rétablissement left:130px; */
+#menu ul li.item4 .layer {
+  left: 30px;
 }
-#menu ul li.main .layer {
-  transition: all 0.2s ease 0.1s;
-  visibility: hidden;
+/* regles unique pour univers bonnes affaires */
+#menu ul li.main.item7 a.category {
+  margin-left: 3px;
+  font-weight: bold;
+  color: #FF0000;
+  /*background-color: #FFFF00;*/ /* jaune */
+  background-color: #FEFB02;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
 }
-#menu ul li.main:hover .layer {
-  visibility: visible;
-}
+
+#menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;}
+
+#menu ul li.main.item7:hover,
+#menu ul li.main.item7 a:hover,
+#menu ul li.main.item7 a:active,
+#menu ul li.main.item7 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #FEFB02; color: #000; }
+#menu ul li.main.item7:hover a {color: #000; background: #FEFB02;}
