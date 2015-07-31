@@ -16,37 +16,36 @@ correction css :
 - **line 100**
 - <code>#menu ul li.main .layer .in ul li.ads{position:relative;background:#fff;width:272px;height:193px;margin-right: ~~10px~~>5px;margin-left: 0; border:1px solid #979797;}</code>
 - **line 112** supp ~~#menu ul li.item1 a.hover{background-position:left -78px}~~  ajouter :
-- <code>#menu ul li.main.item1:hover, #menu ul li.main.item1 a:hover, #menu ul li.main.item1 a:active, #menu ul li.main.item1 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e95d0f; color: #fff; } #menu ul li.main.item1:hover a {color: #fff; background: none;}</code>
-- **line 113** supp mais laisser ligne ?; ajouter
-- <code>#shadow #menu ul li a:hover + div, #shadow #menu ul li div:hover {display: block; } ~~#menu ul li.item1 a.hover span{background-position:right -117px}~~</code>
+- <code>#menu ul li.main.item1:hover, #menu ul li.main.item1 a:hover, #menu ul li.main.item1 a:active, #menu ul li.main.item1 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e95d0f; color: #fff; } #menu ul li.main.item1:hover a {color: #fff; background: #e95d0f;}</code>
+- **line 113** supp mais laisser ligne ?
 - **line 115**
 - <code>#menu ul li.item1 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
 - **line 117** supp ~~#menu ul li.item2 a.hover{background-position:left -156px}~~ ajouter
-- <code>#menu ul li.main.item2:hover, #menu ul li.main.item2 a:hover, #menu ul li.main.item2 a:active, #menu ul li.main.item2 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #00a8e4; color: #fff; } #menu ul li.main.item2:hover a {color: #fff; background: none;}</code>
+- <code>#menu ul li.main.item2:hover, #menu ul li.main.item2 a:hover, #menu ul li.main.item2 a:active, #menu ul li.main.item2 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #00a8e4; color: #fff; } #menu ul li.main.item2:hover a {color: #fff; background: #00a8e4;}</code>
 - **line 118** supp mais laisser ligne ?
 - <code>#menu ul li.item2 a.hover span{background-position:right -195px}</code>
 - **line 120**
 - <code>#menu ul li.item2 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
 - **line 122** supp ~~#menu ul li.item3 a.hover{background-position:left -234px}~~ ajouter
-- <code>#menu ul li.main.item3:hover, #menu ul li.main.item3 a:hover, #menu ul li.main.item3 a:active, #menu ul li.main.item3 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e42685; color: #fff; } #menu ul li.main.item3:hover a {color: #fff; background: none;}</code>
+- <code>#menu ul li.main.item3:hover, #menu ul li.main.item3 a:hover, #menu ul li.main.item3 a:active, #menu ul li.main.item3 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e42685; color: #fff; } #menu ul li.main.item3:hover a {color: #fff; background: #e42685;}</code>
 - **line 123** supp mais laisser ligne ?
 - <code>~~#menu ul li.item3 a.hover span{background-position:right -273px}~~</code>
 - **line 125**
 - <code>#menu ul li.item3 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
 - **line 127** supp ~~#menu ul li.item4 a.hover{background-position:left -312px}~~ ajouter
-- <code>#menu ul li.main.item4:hover, #menu ul li.main.item4 a:hover, #menu ul li.main.item4 a:active, #menu ul li.main.item4 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #fba606; color: #fff; } #menu ul li.main.item4:hover a {color: #fff; background: none;}</code>
+- <code>#menu ul li.main.item4:hover, #menu ul li.main.item4 a:hover, #menu ul li.main.item4 a:active, #menu ul li.main.item4 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #fba606; color: #fff; } #menu ul li.main.item4:hover a {color: #fff; background: #fba606;}</code>
 - **line 128** supp mais laisser ligne ?
 - <code>~~#menu ul li.item4 a.hover span{background-position:right -351px}~~</code>
 - **line 130**
 - <code>#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
 - **line 132** supp ~~#menu ul li.item5 a.hover{background-position:left -390px}~~ ajouter
-- <code>#menu ul li.main.item5:hover, #menu ul li.main.item5 a:hover, #menu ul li.main.item5 a:active, #menu ul li.main.item5 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7ab41c; color: #fff; } #menu ul li.main.item5:hover a {color: #fff; background: none;}</code>
+- <code>#menu ul li.main.item5:hover, #menu ul li.main.item5 a:hover, #menu ul li.main.item5 a:active, #menu ul li.main.item5 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7ab41c; color: #fff; } #menu ul li.main.item5:hover a {color: #fff; background: #7ab41c;}</code>
 - **line 133** supp mais laisser ligne ?
 - <code>~~#menu ul li.item5 a.hover span{background-position:right -429px}~~</code>
 - **line 135**
 - <code>#menu ul li.item5 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
 - **line 137** supp ~~#menu ul li.item6 a.hover{background-position:left -468px}~~ ajouter
-- <code>#menu ul li.main.item6:hover, #menu ul li.main.item6 a:hover, #menu ul li.main.item6 a:active, #menu ul li.main.item6 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7c0395; color: #fff; } #menu ul li.main.item6:hover a {color: #fff; background: none;}</code>
+- <code>#menu ul li.main.item6:hover, #menu ul li.main.item6 a:hover, #menu ul li.main.item6 a:active, #menu ul li.main.item6 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7c0395; color: #fff; } #menu ul li.main.item6:hover a {color: #fff; background: #7c0395;}</code>
 - **line 138** supp mais laisser ligne ?
 - <code>~~#menu ul li.item6 a.hover span{background-position:right -507px}~~</code>
 - **line 140**

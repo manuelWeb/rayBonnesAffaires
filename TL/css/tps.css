@@ -1,3 +1,9 @@
+#menu ul li.main a.category {
+  transition: all 0.2s ease 0.1s;
+}
+#menu ul li.main:hover .in a {
+  background-color: transparent;
+}
 #menu ul li.main .layer {
   display: block;
 }
@@ -6,6 +12,5 @@
   visibility: hidden;
 }
 #menu ul li.main:hover .layer {
-  /*transition-delay: 0s;*/
   visibility: visible;
 }
