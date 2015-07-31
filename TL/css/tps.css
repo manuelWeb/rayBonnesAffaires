@@ -1,7 +1,8 @@
-/*#shadow #menu ul li a:hover + div, #shadow #menu ul li div:hover {display: block; }*/
-
-
-/*line 95*/
-
-
-/*line 113*/
+#menu ul li.main .layer {
+  transition: all 0.2s ease 1s;
+  visibility: hidden;
+}
+#menu ul li.main:hover .layer {
+  transition-delay: 0s;
+  visibility: visible;
+}

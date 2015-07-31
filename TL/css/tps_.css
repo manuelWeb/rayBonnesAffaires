@@ -1,0 +1,24 @@
+/*#shadow #menu ul li a:hover + div, #shadow #menu ul li div:hover {display: block; }*/
+
+
+/*line 95*/
+.main,
+.main a {
+  transition: .8s all .3s;
+  transition-delay: 0s; 
+}
+/* #layer1 */.layer {
+  transition: .8s all .3s;
+}
+
+/*line 113*/
+#menu ul li.main.item1 #layer1.layer {
+  transition: .8s all .3s;
+  opacity: 0;
+}
+
+#menu ul li.main.item1:hover #layer1.layer,
+#menu ul li.main.item1 a:hover+div#layer1.layer {
+  display: block;
+  opacity: 1;
+}
