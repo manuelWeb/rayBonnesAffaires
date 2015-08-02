@@ -2,6 +2,12 @@
 correction css :
 - **line 13**
 - <code>#shadow{width: 1002px; **min-height: 502px;** margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}</code>
+- **line 87 : remplacer**
+- <code>~~#menu a.cmd{position:absolute;top:0;right:0;width:186px;height:75px;margin-right:-16px;color:#FFF;font:bold 14px Century Gothic;line-height:40px;text-transform:uppercase;text-indent:20px;background:url(../images/Version4/bg_menu-cmd.png) no-repeat}~~ > #menu a.cmd {background: #EF88A3; color: #fff; font: bold 14px/40px Century Gothic; /* > arial */ height: 39px; margin-right: -16px; position: absolute; right: 0; text-indent: 20px; text-transform: uppercase; top: 0; width: 186px; }</code>
+- **line 88 ajout :**
+- <code>#menu ul::after {background: rgba(0, 0, 0, 0) url("../images/Version4/bg_menu-cmd.png") no-repeat scroll -170px -39px; content: ""; height: 39px; outline: 1px solid; /* à supp pour la prod */ position: absolute; right: -16px; top: 39px; width: 16px; z-index: -1; }</code>
+- + ajout
+- <code>#menu .in > ul::after {display: none; }</code>
 - **line 89**
 - <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~}</code>
 - **line 90**
@@ -50,14 +56,14 @@ correction css :
 - <code>#menu ul li.main.item6:hover, #menu ul li.main.item6 a:hover, #menu ul li.main.item6 a:active, #menu ul li.main.item6 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7c0395; color: #fff; } #menu ul li.main.item6:hover a {color: #fff; background: #7c0395;}</code>
 - **line 138** supp mais laisser ligne ?
 - <code>~~#menu ul li.item6 a.hover span{background-position:right -507px}~~</code>
-- **line 140**
-- <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
 - **line 139**
 - <code>#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px;~~left:370px;~~>right: 0;}</code>
+- **line 140**
+- <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
 - **line 142 à 153** supp remplacer par (latence dropdown) :
-- <code>#menu ul li.main a.category {transition: all 0.2s ease 0.1s; }  
-#menu ul li.main:hover .in a {background-color: transparent; }  
-#menu ul li.main .layer {display: block; }  
-#menu ul li.main .layer {transition: all 0.2s ease 0.1s; visibility: hidden; }  
-#menu ul li.main:hover .layer {visibility: visible; }  </code>
+- <code>#menu ul li.main a.category {transition: all 0.2s ease 0.1s; }</code>
+- <code>#menu ul li.main:hover .in a {background-color: transparent; }</code>  
+- <code>#menu ul li.main .layer {display: block; }  </code>
+- <code>#menu ul li.main .layer {transition: all 0.2s ease 0.1s; visibility: hidden; }  </code>
+- <code>#menu ul li.main:hover .layer {visibility: visible; }  </code>
 - **line XXX**

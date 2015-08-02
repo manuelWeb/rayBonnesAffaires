@@ -1,0 +1,36 @@
+/* #menu > no match .wrapper ul */
+/* pour éviter d'étendre le lien on se sert de ul:after pour afficher le bg style curl de l'item commande rapide */
+/* pour avoir une zone non sensible moins étendue : */
+#menu ul::after {
+  background: rgba(0, 0, 0, 0) url("../images/Version4/bg_menu-cmd.png") no-repeat scroll -170px -39px;
+  content: "";
+  height: 39px;
+  outline: 1px solid; /* à supp pour la prod */
+  position: absolute;
+  right: -16px;
+  top: 39px;
+  width: 16px;
+  z-index: -1;
+}
+
+/* attention à désactiver le comportement ci dessus sur les ul enfant des div .layer */
+/* on désactive juste la regle ul::after */
+#menu .in > ul::after {
+  display: none;
+}
+/* on doit également raccourcir la balise a.cmd (lien commande rapide) pour quel ne déborde pas sur l'evt central ou sur le dropdown du nouvelle onglet bonnes affaires :  */
+/* line 87 styleV4.css modif */
+/* on passe le bg à red mais on garde l'image juste pour trouver la bonne hauteur */
+#menu a.cmd {
+  background: red url("../images/Version4/bg_menu-cmd.png") no-repeat scroll 0 0;
+  color: #fff;
+  font: bold 14px/40px Century Gothic; /* > arial */
+  height: 39px;
+  margin-right: -16px;
+  position: absolute;
+  right: 0;
+  text-indent: 20px;
+  text-transform: uppercase;
+  top: 0;
+  width: 186px;
+}
