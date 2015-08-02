@@ -1,33 +1,37 @@
 /*pour afficher un box-shadow correctement sur le btn bonnes affaires*/
-#contentBG {
+/* fait line 15> #contentBG {
   background: #fff none repeat scroll 0 0;
   margin: 0 auto;
   width: 974px;
-}
-#header{ background-color: transparent; }
+} */
+
+/* fait line 23> #header{ background-color: transparent; } */
 /* passage de l'item 2 sur deux lignes contrainte width */
-#menu ul li.main.item2 a.category span {
-  width: 98px;
-}
+/* fait line 145 > #menu ul li.main.item2 a.category span {
+  width: 98px; > supp commentaire existant
+} */
+
 /* la regle ci dessus bouge le menu item4 d'ou rétablissement left:130px; */
-#menu ul li.item4 .layer {
+/* fait line 129 #menu ul li.item4 .layer {
   left: 30px;
-}
+} */
+
 /* regles unique pour univers bonnes affaires */
-#menu ul li.main.item7 a.category {
+/* fait line 147 > #menu ul li.main.item7 a.category {
   margin-left: 3px;
   font-weight: bold;
   color: #FF0000;
-  /*background-color: #FFFF00;*/ /* jaune */
+  background-color: #FFFF00; jaune
   background-color: #FEFB02;
   -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
   box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
-}
+} */
 
-#menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;}
+/* fait line 148 > #menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;} */
 
-#menu ul li.main.item7:hover,
+/* fait line 149 > #menu ul li.main.item7:hover,
 #menu ul li.main.item7 a:hover,
 #menu ul li.main.item7 a:active,
-#menu ul li.main.item7 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #FEFB02; color: #000; }
-#menu ul li.main.item7:hover a {color: #000; background: #FEFB02;}
+#menu ul li.main.item7 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #FEFB02; color: #000; } */
+
+/* fait line 150 > #menu ul li.main.item7:hover a {color: #000;} */

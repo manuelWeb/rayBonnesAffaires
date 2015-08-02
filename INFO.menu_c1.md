@@ -2,6 +2,10 @@
 correction css :
 - **line 13**
 - <code>#shadow{width: 1002px; **min-height: 502px;** margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}</code>
+- **line 15 laisser commentaire contentBG mais ajouter**
+- <code>#contentBG {background: #fff none repeat scroll 0 0; margin: 0 auto; width: 974px; }</code>
+- **line 23 corriger bgc:**
+- <code>#header{ background-color: transparent; }</code>
 - **line 87 : remplacer**
 - <code>~~#menu a.cmd{position:absolute;top:0;right:0;width:186px;height:75px;margin-right:-16px;color:#FFF;font:bold 14px Century Gothic;line-height:40px;text-transform:uppercase;text-indent:20px;background:url(../images/Version4/bg_menu-cmd.png) no-repeat}~~ > #menu a.cmd {background: #EF88A3; color: #fff; font: bold 14px/40px Century Gothic; /* > arial */ height: 39px; margin-right: -16px; position: absolute; right: 0; text-indent: 20px; text-transform: uppercase; top: 0; width: 186px; }</code>
 - **line 88 ajout :**
@@ -44,6 +48,8 @@ correction css :
 - <code>#menu ul li.main.item4:hover, #menu ul li.main.item4 a:hover, #menu ul li.main.item4 a:active, #menu ul li.main.item4 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #fba606; color: #fff; } #menu ul li.main.item4:hover a {color: #fff; background: #fba606;}</code>
 - **line 128** supp mais laisser ligne ?
 - <code>~~#menu ul li.item4 a.hover span{background-position:right -351px}~~</code>
+- **line 129 modifier**
+- <code>#menu ul li.item4 .layer{background:#fba606;position:absolute;top:39px;~~**left:370px;**~~ > left: 30px;}</code>
 - **line 130**
 - <code>#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
 - **line 132** supp ~~#menu ul li.item5 a.hover{background-position:left -390px}~~ ajouter
@@ -66,4 +72,13 @@ correction css :
 - <code>#menu ul li.main .layer {display: block; }  </code>
 - <code>#menu ul li.main .layer {transition: all 0.2s ease 0.1s; visibility: hidden; }  </code>
 - <code>#menu ul li.main:hover .layer {visibility: visible; }  </code>
-- **line XXX**
+- **line 145 ajouter (pour passer le texte item2 sur deux lignes) puis supp commentaire**
+- <code>#menu ul li.main.item2 a.category span {width: 98px; } supp ~~**/\*body.item2 #menu ul li.item2 a span{color:#FFF;background-position:right -195px}\*/**~~</code>
+- **line 147 ajouter**
+- <code>#menu ul li.main.item7 a.category {margin-left: 3px; font-weight: bold; color: #FF0000; background-color: #FEFB02; -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); }</code>
+- **line 148 ajouter**
+- <code>#menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;}</code>
+- **line 149 ajouter**
+- <code>#menu ul li.main.item7:hover, #menu ul li.main.item7 a:hover, #menu ul li.main.item7 a:active, #menu ul li.main.item7 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #FEFB02; color: #000; }</code>
+- **line 150 ajouter**
+- <code>#menu ul li.main.item7:hover a {color: #000;}</code>
