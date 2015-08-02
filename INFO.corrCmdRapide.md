@@ -1,0 +1,3 @@
+#### TODO corriger la taille de la zone [a href] de cmd rapide  
+- pb > commande rapide -> zone sensible du a href cogne contre la div dropdown de l'item bonnes affaires + zone evt central
+- solution ajouter le retour de la bande rose à UL du menu : création de la branche menu_c1.4 à partir de master pour la fusionner sur toutes les branches + master. Normalement on garde toutes les évolutions des branches avec la correction de la nouvelle branche c1.4...
