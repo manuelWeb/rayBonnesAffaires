@@ -1,4 +1,4 @@
-### branch menu_c1
+### branch menu_c1.3
 correction css :
 - **line 13**
 - <code>#shadow{width: 1002px; **min-height: 502px;** margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}</code>
@@ -6,7 +6,7 @@ correction css :
 - <code>~~#menu a.cmd{position:absolute;top:0;right:0;width:186px;height:75px;margin-right:-16px;color:#FFF;font:bold 14px Century Gothic;line-height:40px;text-transform:uppercase;text-indent:20px;background:url(../images/Version4/bg_menu-cmd.png) no-repeat}~~ > #menu a.cmd {background: #EF88A3; color: #fff; font: bold 14px/40px Century Gothic; /* > arial */ height: 39px; margin-right: -16px; position: absolute; right: 0; text-indent: 20px; text-transform: uppercase; top: 0; width: 186px; }</code>
 - **line 88 ajout :**
 - <code>#menu ul::after {background: rgba(0, 0, 0, 0) url("../images/Version4/bg_menu-cmd.png") no-repeat scroll -170px -39px; content: ""; height: 39px; outline: 1px solid; /* à supp pour la prod */ position: absolute; right: -16px; top: 39px; width: 16px; z-index: -1; }</code>
-- + ajout
+- **\+ ajout**
 - <code>#menu .in > ul::after {display: none; }</code>
 - **line 89**
 - <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~}</code>
