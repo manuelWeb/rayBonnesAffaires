@@ -1,0 +1,63 @@
+### branch menu_c1
+correction css :
+- **line 13**
+- <code>#shadow{width: 1002px; **min-height: 502px;** margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}</code>
+- **line 89**
+- <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~}</code>
+- **line 90**
+- <code>#menu ul li.main a.category{~~float: left;~~>display: inline-block; ~~width: 125px;~~ height: 39px; line-height: 39px; background: #f9d5e1; color: #b41f20; ~~margin-right:7px;~~ **-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px;** ~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
+- **line 92** 
+- <code>#menu ul li.main a.category span{display:inline-block; ~~padding:0 10px;~~ > padding: 0 6px; line-height:16px;vertical-align:middle;font-size:12px;text-transform:uppercase;}</code>
+- **line 95** 
+- <code>#menu ul li.main .layer{display:none;position:absolute;top:39px; ~~left:30px~~; ~~width:900px;~~ ~~background:#CCC~~}</code>
+- HTML supp :
+- <code> <input type="hidden" name="ctl00$UC_MENU$HF_NBR_COLONNE_RAYON_PAR_UNIVERS" id="ctl00_UC_MENU_HF_NBR_COLONNE_RAYON_PAR_UNIVERS" value="2;1;2;1;2;2;" /> </code>
+- &lt;input type=&quot;hidden&quot; name=&quot;ctl00$UC_MENU$HF_NBR_COLONNE_RAYON_PAR_UNIVERS&quot; id=&quot;ctl00_UC_MENU_HF_NBR_COLONNE_RAYON_PAR_UNIVERS&quot; value=&quot;2;1;2;1;2;2;&quot; /&gt;
+- **line 97**
+- <code>#menu ul li.main .layer .in ul{display:block;margin:5px auto 0 auto;~~width:800px~~}</code>
+- **line 100**
+- <code>#menu ul li.main .layer .in ul li.ads{position:relative;background:#fff;width:272px;height:193px;margin-right: ~~10px~~>5px;margin-left: 0; border:1px solid #979797;}</code>
+- **line 112** supp ~~#menu ul li.item1 a.hover{background-position:left -78px}~~  ajouter :
+- <code>#menu ul li.main.item1:hover, #menu ul li.main.item1 a:hover, #menu ul li.main.item1 a:active, #menu ul li.main.item1 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e95d0f; color: #fff; } #menu ul li.main.item1:hover a {color: #fff; background: #e95d0f;}</code>
+- **line 113** supp mais laisser ligne ?
+- **line 115**
+- <code>#menu ul li.item1 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- **line 117** supp ~~#menu ul li.item2 a.hover{background-position:left -156px}~~ ajouter
+- <code>#menu ul li.main.item2:hover, #menu ul li.main.item2 a:hover, #menu ul li.main.item2 a:active, #menu ul li.main.item2 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #00a8e4; color: #fff; } #menu ul li.main.item2:hover a {color: #fff; background: #00a8e4;}</code>
+- **line 118** supp mais laisser ligne ?
+- <code>#menu ul li.item2 a.hover span{background-position:right -195px}</code>
+- **line 120**
+- <code>#menu ul li.item2 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
+- **line 122** supp ~~#menu ul li.item3 a.hover{background-position:left -234px}~~ ajouter
+- <code>#menu ul li.main.item3:hover, #menu ul li.main.item3 a:hover, #menu ul li.main.item3 a:active, #menu ul li.main.item3 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #e42685; color: #fff; } #menu ul li.main.item3:hover a {color: #fff; background: #e42685;}</code>
+- **line 123** supp mais laisser ligne ?
+- <code>~~#menu ul li.item3 a.hover span{background-position:right -273px}~~</code>
+- **line 125**
+- <code>#menu ul li.item3 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- **line 127** supp ~~#menu ul li.item4 a.hover{background-position:left -312px}~~ ajouter
+- <code>#menu ul li.main.item4:hover, #menu ul li.main.item4 a:hover, #menu ul li.main.item4 a:active, #menu ul li.main.item4 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #fba606; color: #fff; } #menu ul li.main.item4:hover a {color: #fff; background: #fba606;}</code>
+- **line 128** supp mais laisser ligne ?
+- <code>~~#menu ul li.item4 a.hover span{background-position:right -351px}~~</code>
+- **line 130**
+- <code>#menu ul li.item4 .layer .in ul {margin:5px auto 0 auto;~~width:550px~~}</code>
+- **line 132** supp ~~#menu ul li.item5 a.hover{background-position:left -390px}~~ ajouter
+- <code>#menu ul li.main.item5:hover, #menu ul li.main.item5 a:hover, #menu ul li.main.item5 a:active, #menu ul li.main.item5 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7ab41c; color: #fff; } #menu ul li.main.item5:hover a {color: #fff; background: #7ab41c;}</code>
+- **line 133** supp mais laisser ligne ?
+- <code>~~#menu ul li.item5 a.hover span{background-position:right -429px}~~</code>
+- **line 135**
+- <code>#menu ul li.item5 .layer .in ul {margin:5px auto 0 auto;~~width:750px~~}</code>
+- **line 137** supp ~~#menu ul li.item6 a.hover{background-position:left -468px}~~ ajouter
+- <code>#menu ul li.main.item6:hover, #menu ul li.main.item6 a:hover, #menu ul li.main.item6 a:active, #menu ul li.main.item6 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #7c0395; color: #fff; } #menu ul li.main.item6:hover a {color: #fff; background: #7c0395;}</code>
+- **line 138** supp mais laisser ligne ?
+- <code>~~#menu ul li.item6 a.hover span{background-position:right -507px}~~</code>
+- **line 140**
+- <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
+- **line 139**
+- <code>#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px;~~left:370px;~~>right: 0;}</code>
+- **line 142 à 153** supp remplacer par (latence dropdown) :
+- <code>#menu ul li.main a.category {transition: all 0.2s ease 0.1s; }  
+#menu ul li.main:hover .in a {background-color: transparent; }  
+#menu ul li.main .layer {display: block; }  
+#menu ul li.main .layer {transition: all 0.2s ease 0.1s; visibility: hidden; }  
+#menu ul li.main:hover .layer {visibility: visible; }  </code>
+- **line XXX**
