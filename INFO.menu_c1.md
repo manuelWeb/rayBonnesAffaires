@@ -13,7 +13,7 @@ correction css :
 - **\+ ajout**
 - <code>#menu .in > ul::after {display: none; }</code>
 - **line 89**
-- <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~}</code>
+- <code>#menu ul li.main{~~float: left;~~>display: inline-block;~~width: 128px;~~ ajouter :  *display: inline; *zoom:1; *float: left; margin-right: 1px; *margin-right: 4px;}</code>
 - **line 90**
 - <code>#menu ul li.main a.category{~~float: left;~~>display: inline-block; ~~width: 125px;~~ height: 39px; line-height: 39px; background: #f9d5e1; color: #b41f20; ~~margin-right:7px;~~ **-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px;** ~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
 - **line 92** 
@@ -66,6 +66,8 @@ correction css :
 - <code>#menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px;~~left:370px;~~>right: 0;}</code>
 - **line 140**
 - <code>#menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;~~width:100%~~}</code>
+- **line 141** ajouter derrière la ligne existante
+- <code>#menu ul li.item6 .layer .in ul li a:hover{...} **.item6 span {width: 90px;}**</code>
 - **line 142 à 153** supp remplacer par (latence dropdown) :
 - <code>#menu ul li.main a.category {transition: all 0.2s ease 0.1s; }</code>
 - <code>#menu ul li.main:hover .in a {background-color: transparent; }</code>  
@@ -75,7 +77,7 @@ correction css :
 - **line 145 ajouter (pour passer le texte item2 sur deux lignes) puis supp commentaire**
 - <code>#menu ul li.main.item2 a.category span {width: 98px; } supp ~~**/\*body.item2 #menu ul li.item2 a span{color:#FFF;background-position:right -195px}\*/**~~</code>
 - **line 147 ajouter**
-- <code>#menu ul li.main.item7 a.category {margin-left: 3px; font-weight: bold; color: #FF0000; background-color: #FEFB02; -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); }</code>
+- <code>margin-left: 3px; font-weight: bold; color: #FF0000; background-color: #FEFB02; -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); </code>
 - **line 148 ajouter**
 - <code>#menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;}</code>
 - **line 149 ajouter**

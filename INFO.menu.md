@@ -13,4 +13,4 @@ ___
 ##### Étape 2
 - ajout item bonnes affaires.
 - pb > commande rapide -> zone sensible du a href cogne contre la div dropdown de l'item bonnes affaires
-- solution ajouter le retour de la bande rose à l'image de
+- solution ajouter le retour de la bande rose  à UL::AFTER du menu
