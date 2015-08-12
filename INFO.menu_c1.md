@@ -17,7 +17,7 @@ correction css :
 - **line 90**
 - <code>#menu ul li.main a.category{~~float: left;~~>display: inline-block; ~~width: 125px;~~ height: 39px; line-height: 39px; background: #f9d5e1; color: #b41f20; ~~margin-right:7px;~~ **-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px;** ~~background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat;~~ text-align: center;}</code> 
 - **line 92** 
-- <code>#menu ul li.main a.category span{display:inline-block; ~~padding:0 10px;~~ > padding: 0 6px; line-height:16px;vertical-align:middle;font-size:12px;text-transform:uppercase;}</code>
+- <code>#menu ul li.main a.category span{display:inline-block; padding: 0 10px; line-height:16px;vertical-align:middle;~~font-size:12px;~~ > font-size: 0.72rem; text-transform: uppercase;}</code>
 - **line 95** 
 - <code>#menu ul li.main .layer{display:none;position:absolute;top:39px; ~~left:30px~~; ~~width:900px;~~ ~~background:#CCC~~}</code>
 - HTML supp :

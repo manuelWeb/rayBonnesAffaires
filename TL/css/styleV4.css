@@ -89,7 +89,7 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 #menu ul li.main{display: inline-block; *display: inline; *zoom:1; *float: left; margin-right: 1px; *margin-right: 4px;} /* menu_c1 float: left;width: 128px;  */ 
 #menu ul li.main a.category{display: inline-block; height:39px; line-height: 39px; -moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background: #f9d5e1; color: #b41f20; text-align: center;} /* menu_c1 float:left; width: 125px;  margin-right: 7px; background: url(../images/Version4/bg_menu-category.png) 0 0 no-repeat; */
 
-#menu ul li.main a.category span{display: inline-block; padding: 0 10px; line-height: 16px; vertical-align: middle; font-size: 12px; text-transform: uppercase; }
+#menu ul li.main a.category span{display: inline-block; padding: 0 10px; line-height: 16px; vertical-align: middle; font-size: 0.72rem; text-transform: uppercase; }
 /*#menu ul li.main a.category span{display:block;height:39px;font-size:12px;line-height:40px;text-transform:uppercase;padding:0 10px;background:url(../images/Version4/bg_menu-category.png) right -39px no-repeat}*/
 #menu ul li.main a.hover{color:#FFF}
 #menu ul li.main .layer{display:none;position:absolute;top:39px;} /* menu_c1 left:30px; width:900px;background:#CCC */
