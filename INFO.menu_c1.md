@@ -4,6 +4,8 @@ correction css :
 - <code>#shadow{width: 1002px; **min-height: 502px;** margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}</code>
 - **line 15 laisser commentaire contentBG mais ajouter**
 - <code>#contentBG {background: #fff none repeat scroll 0 0; margin: 0 auto; width: 974px; }</code>
+- **line 15 correction**
+- <code>#contentBG {background: transparent; margin: 0 auto; width: 1002px; }</code>
 - **line 23 corriger bgc:**
 - <code>#header{ background-color: transparent; }</code>
 - **line 87 : remplacer**

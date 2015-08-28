@@ -12,7 +12,7 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 .text-overflow{overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;}
 #shadow{width: 1002px; min-height: 502px; margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}
 /* #shadow{width :100%; margin:0 auto; background: url(../images/Version4/decosOrShad_ry600.jpg) repeat-x scroll 50% 0 transparent ;}*/
-#contentBG {background: #fff none repeat scroll 0 0; margin: 0 auto; width: 974px; } /*#contentBG{width:1002px; margin:2px auto; background: url(../images/Version4/bg_content_974.png) repeat-y scroll 50% 0 transparent;}*/
+#contentBG {background: transparent; margin: 0 auto; width: 1002px; } /*#contentBG{width:1002px; margin:2px auto; background: url(../images/Version4/bg_content_974.png) repeat-y scroll 50% 0 transparent;}*/
 
 .left{display:inline;float:left;width:195px;margin-left:19px}
 #right{display:inline;float:right;width:764px;margin-right:19px}
