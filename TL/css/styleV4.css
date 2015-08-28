@@ -139,10 +139,10 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 #menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px; right: 0;}/* menu_c1 left:370px; > r:0; */
 #menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;}/* menu_c1 width:100% */
 #menu ul li.item6 .layer .in ul li a:hover{color:#7c0395;text-decoration: underline;font-weight: bold;} #menu ul li.item6 span {width: 90px;}
-#menu ul li.main a.category {transition: all 0.2s ease 0.1s; } /*body.item1 #menu ul li.item1 a{background-position:left -78px}*/
+#menu ul li.main a.category { -moz-transition: all 0.2s ease 0.1s; -o-transition: all 0.2s ease 0.1s; -webkit-transition: all 0.2s ease; -webkit-transition-delay: 0.1s; transition: all 0.2s ease 0.1s; } /*body.item1 #menu ul li.item1 a{background-position:left -78px}*/
 #menu ul li.main:hover .in a {background-color: transparent; } /*body.item1 #menu ul li.item1 a span{color:#FFF;background-position:right -117px}*/
 #menu ul li.main .layer {display: block; } /*body.item2 #menu ul li.item2 a{background-position:left -156px}*/
-#menu ul li.main .layer {transition: all 0.2s ease 0.1s; visibility: hidden; } #menu ul li.main.item2 a.category span {width: 98px; }
+#menu ul li.main .layer {-moz-transition: all 0.2s ease 0.1s; -o-transition: all 0.2s ease 0.1s; -webkit-transition: all 0.2s ease; -webkit-transition-delay: 0.1s; transition: all 0.2s ease 0.1s; visibility: hidden; } #menu ul li.main.item2 a.category span {width: 98px; }
 #menu ul li.main:hover .layer {visibility: visible; } /*body.item3 #menu ul li.item3 a{background-position:left -234px}*/
 #menu ul li.main.item7 a.category {margin-left: 3px; font-weight: bold; color: #FF0000; background-color: #FEFB02; -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); }/*body.item3 #menu ul li.item3 a span{color:#FFF;background-position:right -273px}*/
 #menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;}/*body.item4 #menu ul li.item4 a{background-position:left -312px}*/
