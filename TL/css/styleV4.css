@@ -138,7 +138,7 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 /*#menu ul li.item6 a.hover span{background-position:right -507px}*/
 #menu ul li.item6 .layer{background:#7c0395;position:absolute;top:39px; right: 0;}/* menu_c1 left:370px; > r:0; */
 #menu ul li.item6 .layer .in ul {margin:5px auto 0 auto;}/* menu_c1 width:100% */
-#menu ul li.item6 .layer .in ul li a:hover{color:#7c0395;text-decoration: underline;font-weight: bold;} .item6 span {width: 90px;}
+#menu ul li.item6 .layer .in ul li a:hover{color:#7c0395;text-decoration: underline;font-weight: bold;} #menu ul li.item6 span {width: 90px;}
 #menu ul li.main a.category {transition: all 0.2s ease 0.1s; } /*body.item1 #menu ul li.item1 a{background-position:left -78px}*/
 #menu ul li.main:hover .in a {background-color: transparent; } /*body.item1 #menu ul li.item1 a span{color:#FFF;background-position:right -117px}*/
 #menu ul li.main .layer {display: block; } /*body.item2 #menu ul li.item2 a{background-position:left -156px}*/
