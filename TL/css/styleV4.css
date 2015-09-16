@@ -12,12 +12,13 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 .text-overflow{overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;}
 #shadow{width: 1002px; min-height: 502px; margin: 0 auto; background: url(../images/Version4/bg_body-shadow.png) no-repeat;}
 /* #shadow{width :100%; margin:0 auto; background: url(../images/Version4/decosOrShad_ry600.jpg) repeat-x scroll 50% 0 transparent ;}*/
-#contentBG {background: transparent; margin: 0 auto; width: 1002px; } /*#contentBG{width:1002px; margin:2px auto; background: url(../images/Version4/bg_content_974.png) repeat-y scroll 50% 0 transparent;}*/
+#contentBG {background: transparent; margin: 0 auto; width: 1002px; }/*#contentBG {background: #fff none repeat scroll 0 0; margin: 0 auto; width: 974px; }*/ /*#contentBG{width:1002px; margin:2px auto; background: url(../images/Version4/bg_content_974.png) repeat-y scroll 50% 0 transparent;}*/
 
 .left{display:inline;float:left;width:195px;margin-left:19px}
 #right{display:inline;float:right;width:764px;margin-right:19px}
 .clear{clear:both;}
 .h10 { height: 10px;}
+.ta-center {text-align: center;}
 
 /* Header du site */
 #header{position:relative;z-index:3;width:974px;height:109px;margin: 0 auto;background-color: transparent;}
@@ -146,12 +147,12 @@ body{background:#FFF url(../images/Version4/bg_body.png) 0 0 repeat-x;font:11px 
 #menu ul li.main:hover .layer {visibility: visible; } /*body.item3 #menu ul li.item3 a{background-position:left -234px}*/
 #menu ul li.main.item7 a.category {margin-left: 3px; font-weight: bold; color: #FF0000; background-color: #FEFB02; -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); box-shadow: 0 0 6px 0 rgba(0,0,0,0.6); }/*body.item3 #menu ul li.item3 a span{color:#FFF;background-position:right -273px}*/
 #menu ul li.item7 .layer{background:#FEFB02;position:absolute;top:39px; right: 0;}/*body.item4 #menu ul li.item4 a{background-position:left -312px}*/
-#menu ul li.main.item7:hover, #menu ul li.main.item7 a:hover, #menu ul li.main.item7 a:active, #menu ul li.main.item7 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #FEFB02; color: #000; }/*body.item4 #menu ul li.item4 a span{color:#FFF;background-position:right -351px}*/
-#menu ul li.main.item7:hover a {color: #000;}/*body.item5 #menu ul li.item5 a{background-position:left -390px}*/
+#menu ul li.main.item7:hover, #menu ul li.main.item7 a:hover, #menu ul li.main.item7 a:active, #menu ul li.main.item7 a:focus {-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; background-color: #FEFB02; }/*body.item4 #menu ul li.item4 a span{color:#FFF;background-position:right -351px}*/
+/*body.item5 #menu ul li.item5 a{background-position:left -390px}*/
 /*body.item5 #menu ul li.item5 a span{color:#FFF;background-position:right -429px}*/
 /*body.item6 #menu ul li.item6 a{background-position:left -468px}*/
 /*body.item6 #menu ul li.item6 a span{color:#FFF;background-position:right -507px}*/
-
+#menu ul li.item7 .layer .in ul li a:hover{text-decoration: underline; font-weight: bold;}
 /* Fil d Arianne */
 .breadcrumb{}
 .breadcrumb ul{display:block;list-style-type:none;margin-left:44px;height:32px}
@@ -307,14 +308,14 @@ body.item6 #shpCoupDeCoeur h3{background:#7C0395}
 /* tetiere listing produit */
 #tetiere{position:relative;height:54px;text-indent:180px;font:bold italic 18px Georgia;line-height:54px;border-bottom:1px solid #e6e5e6;margin-bottom:10px}
 #tetiere img{position:absolute;top:0;left:0}
-body.item1 #tetiere{color:#e95e0f}
-body.item2 #tetiere{color:#00A8E4}
-body.item3 #tetiere{color:#E42685}
-body.item4 #tetiere{color:#FBA606}
-body.item5 #tetiere{color:#7AB41C}
-body.item6 #tetiere{color:#7C0395}
-body.rayEvt #tetiere{color:#e95e0f;}
-
+body.item1 #tetiere{color: #E95E0F;}
+body.item2 #tetiere{color: #00A8E4;}
+body.item3 #tetiere{color: #E42685;}
+body.item4 #tetiere{color: #FBA606;}
+body.item5 #tetiere{color: #7AB41C;}
+body.item6 #tetiere{color: #7C0395;}
+body.item7 #tetiere{color: #FEFB02;}
+body.rayEvt #tetiere{color:#E95E0F;}
 /* Pagination */
 #paginationHaut{position:relative;height:20px;font:12px Arial;line-height:18px;color:#b41f1e}
 #paginationHaut .all{color:#b41f1e;text-decoration:underline;padding-left:10px}
@@ -354,6 +355,7 @@ body.item5 #shpEncart .block{border:1px solid #7AB41C}
 body.item5 #shpEncart .block strong{color:#7AB41C}
 body.item6 #shpEncart .block{border:1px solid #7C0395}
 body.item6 #shpEncart .block strong{color:#7C0395}
+#shpEncartRayonEvent{position: relative;}
 
 /* shp block seo */
 #shpSeo{font:12px Arial;line-height:16px;color: #57575a;margin-bottom: 25px;}
@@ -1694,3 +1696,8 @@ background:url(../images/portail/bg_puceIntroBE.png) no-repeat left;}
 
 /* Modification pour le header*/
 .open span {line-height: 12px;display: inline-block;}
+
+/* Téléphone */
+#header .phone td.num, div.zone1 td.num {vertical-align: middle; border-left-width: 1px; border-left-color: #CCCCCC; border-left-style: solid; background: url(../images/telephone/sva-left-innerglow.png) no-repeat left 0px; padding: 0 5px;}
+#header .phone td.right-innerglow, div.zone1 .phone td.right-innerglow{vertical-align: middle; border-right-style: solid; border-right-color: #CCCCCC; border-right-width: 1px; background: url(../images/telephone/sva-right-innerglow.png) no-repeat right;}
+#header .phone img.imgTelFr, div.zone1 .phone img.imgTelFr{display: block; width: 8px; height: 28px; border: 0;}
